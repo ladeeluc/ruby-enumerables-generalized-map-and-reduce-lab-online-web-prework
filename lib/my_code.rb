@@ -8,7 +8,10 @@ end
 negetive_array
 end
 
-def reduce(source_array,starting_point = 0)
-  total = starting_point
-  counter = 0
+def reduce(array,sv = nil)
+  if sv
+    num1 = sv
+      i = 0
+  else
+    num1 = array[0]
 end
